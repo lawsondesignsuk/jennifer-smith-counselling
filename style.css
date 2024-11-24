@@ -889,6 +889,8 @@ footer {
     color: white;
     text-align: center;
     margin: auto;
+    display: block;
+    clear: both;
 }
 .footer-copy a {
     color: white;
