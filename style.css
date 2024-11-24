@@ -12,8 +12,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%; /* Combined background-position */
-    position: relative; /* Added for z-index to work */
-    z-index: 0;
 }
 
 #background-2 {
@@ -22,8 +20,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%; /* Combined background-position */
-    position: relative; /* Added for z-index to work */
-    z-index: 0;
 }
 
 #background-3 {
@@ -32,8 +28,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%; /* Combined background-position */
-    position: relative; /* Added for z-index to work */
-    z-index: 0;
 }
 
 #background-4 {
@@ -43,8 +37,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: relative; /* Added for z-index to work */
-    z-index: 0;
 }
 
 #background-about-hero {
@@ -52,8 +44,6 @@ body {
     background-position: 40%; /* Removed duplicate background-position */
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative; /* Added for z-index to work */
-    z-index: 0;
 }
 
 #background-services-hero {
@@ -61,8 +51,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative; /* Added for z-index to work */
-    z-index: 0;
 }
 
 
@@ -88,8 +76,6 @@ header {
     color: white;
     max-width: 1200px;
     margin: auto;
-    position: relative; /* Important for z-index to work */
-    z-index: 1000; /* Ensures header stays above other elements */
 }
 
 header .logo {
