@@ -884,17 +884,6 @@ footer {
     text-decoration: none;
 }
 
-.footer-copy {
-    font-size: 0.8em;
-    color: white;
-    text-align: center;
-    margin: auto;
-    display: block;
-    clear: both;
-}
-.footer-copy a {
-    color: white;
-}
 
 /* Align items horizontally on larger screens */
 @media (min-width: 768px) {
