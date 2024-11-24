@@ -271,7 +271,6 @@ span.ec {
     }
 
     .hero-content {
-        width: 90%; /* Make the content take full width on smaller screens */
         margin-bottom: 30px; /* Space between text and image */
         margin: auto;
     }
