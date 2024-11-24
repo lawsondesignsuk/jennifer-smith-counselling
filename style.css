@@ -88,7 +88,8 @@ header {
     color: white;
     max-width: 1200px;
     margin: auto;
-    position: relative;
+    position: relative; /* Important for z-index to work */
+    z-index: 1000; /* Ensures header stays above other elements */
 }
 
 header .logo {
