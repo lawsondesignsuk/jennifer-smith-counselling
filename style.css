@@ -274,6 +274,7 @@ span.ec {
     .hero-content {
         margin-bottom: 30px; /* Space between text and image */
         margin: auto;
+        width: 100%;
     }
 
     .hero-content img.profile {
