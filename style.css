@@ -847,18 +847,14 @@ footer {
 /* Footer Copy Styling */
 .footer-copy {
     font-size: 0.8em;
-    color: white;
+    color: black;
+    background-color: white;
     text-align: center;
     margin: 0; /* Remove any additional margins */
     padding: 0; /* Remove any padding */
     display: block; /* Ensures it's a block-level element outside flexbox */
 }
 
-/* Reset margin and padding for surrounding elements */
-body, html {
-    margin: 0;
-    padding: 0;
-}
 
 /* Align items horizontally on larger screens */
 @media (min-width: 768px) {
