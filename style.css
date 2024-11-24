@@ -884,16 +884,15 @@ footer {
     text-decoration: none;
 }
 
+/* Footer Copy Styling */
 .footer-copy {
     font-size: 0.8em;
     color: white;
     text-align: center;
-    margin: auto;
-    display: block;
-    clear: both;
-}
-.footer-copy a {
-    color: white;
+    margin: 20px auto; /* Ensures space above and below the footer copy */
+    padding-top: 20px; /* Optional padding */
+    display: block; /* Ensures it's a block-level element outside flexbox */
+    clear: both; /* Clears any floated elements above */
 }
 
 /* Align items horizontally on larger screens */
@@ -918,6 +917,7 @@ footer {
         margin: 0 3px;
     }
 }
+
 
 
 /* General styling for the form */
