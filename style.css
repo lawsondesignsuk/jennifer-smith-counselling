@@ -844,55 +844,20 @@ footer {
     margin: auto;
 }
 
-/* Responsive Footer Boxes */
-.footer-box {
-    flex: 1;
-    min-width: 250px; /* Ensures boxes don't get too narrow */
-    max-width: 350px;
-    margin: auto;
-    text-align: center;
-}
-
-.footer-box h5 {
-    margin-bottom: 10px;
-}
-
-/* Responsive Images */
-.footer-box img {
-    width: 180px;
-    max-width: 100%;
-}
-
-.icons img {
-    border-radius: 50%;   
-    width: 35px;
-    margin-right: 5px;
-}
-
-/* Responsive Links */
-.footer-box ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-box ul li {
-    margin: 15px 0;
-}
-
-.footer-box ul a {
-    color: white;
-    text-decoration: none;
-}
-
 /* Footer Copy Styling */
 .footer-copy {
     font-size: 0.8em;
     color: white;
     text-align: center;
-    margin: 20px auto; /* Ensures space above and below the footer copy */
-    padding-top: 20px; /* Optional padding */
+    margin: 0; /* Remove any additional margins */
+    padding: 0; /* Remove any padding */
     display: block; /* Ensures it's a block-level element outside flexbox */
-    clear: both; /* Clears any floated elements above */
+}
+
+/* Reset margin and padding for surrounding elements */
+body, html {
+    margin: 0;
+    padding: 0;
 }
 
 /* Align items horizontally on larger screens */
@@ -917,6 +882,7 @@ footer {
         margin: 0 3px;
     }
 }
+
 
 
 
