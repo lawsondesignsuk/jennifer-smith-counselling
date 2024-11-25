@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
 Sitemap: https://jennifersmithcounselling.com/sitemap.xml
