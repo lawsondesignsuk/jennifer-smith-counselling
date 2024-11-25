@@ -126,19 +126,6 @@ nav ul li a:hover {
     .nav-links {
         display: none;
     }
-
-    .nav-links {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #333; /* Dark background for mobile menu */
-    width: 100%;
-    height: 100vh; /* Full height for mobile menu */
-    display: none; /* Initially hidden */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 3; /* Ensures the menu is above other content */
 }
 
     nav ul li a {
