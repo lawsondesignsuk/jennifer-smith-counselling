@@ -16,7 +16,8 @@
     <meta property="og:description" content="Learn more about Jennifer Smith, an experienced counsellor who offers compassionate therapy for mental well-being, personal growth, and relationships in Aberdeen, Scotland.">
     <meta property="og:image" content="https://www.jennifersmithcounselling.com/images/picofme.png">
     <meta property="og:url" content="https://www.jennifersmithcounselling.com/about">
-    <meta property="og:type" content="website">    
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_GB">
 
     <!-- Twitter Card Data -->
     <meta name="twitter:card" content="summary_large_image">
@@ -25,10 +26,15 @@
     <meta name="twitter:image" content="https://www.jennifersmithcounselling.com/images/picofme.png">
 
     <!-- Favicon -->
-    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    
-    <!-- Structured Data Schema for Local Business -->
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.jennifersmithcounselling.com/about">
+
+    <!-- Structured Data Schema for Person -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -38,6 +44,12 @@
       "description": "Jennifer Smith is an experienced counsellor based in Aberdeen, Scotland, offering integrative therapy for individuals and couples to support mental health, personal growth, and relationships.",
       "url": "https://jennifersmithcounselling.com/about",
       "image": "https://www.jennifersmithcounselling.com/images/picofme.png",
+      "gender": "Female",
+      "knowsAbout": ["mental health", "relationship counseling", "personal growth", "integrative therapy"],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "University of Aberdeen"
+      },
       "worksFor": {
         "@type": "Organization",
         "name": "Jennifer Smith Counselling",
@@ -53,7 +65,7 @@
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+447868527964",
-        "contactType": "Customer Service",
+        "contactType": "Therapy Inquiries",
         "areaServed": "UK"
       },
       "sameAs": [
