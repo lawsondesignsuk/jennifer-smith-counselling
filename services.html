@@ -56,6 +56,33 @@
             </div>
         </header>
 
+                <script>
+            document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.getElementById('menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    // Make sure elements exist to prevent errors if any element is missing
+    if (menuBtn && navLinks && menuIcon && closeIcon) {
+        menuBtn.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            
+            // Toggle icons visibility based on the active state of the menu
+            if (navLinks.classList.contains('active')) {
+                menuIcon.style.display = 'none';
+                closeIcon.style.display = 'inline-block';
+            } else {
+                menuIcon.style.display = 'inline-block';
+                closeIcon.style.display = 'none';
+            }
+        });
+    } else {
+        console.warn('Menu elements not found on the page');
+    }
+});
+        </script>
+
         <div class="divider"></div>
         <div class="services-hero">
             <h3>Services</h3>
@@ -164,9 +191,6 @@
         </footer>
         
         </div>
-
-<script src="script.js"></script>
-
 
 </body>
 </html>
