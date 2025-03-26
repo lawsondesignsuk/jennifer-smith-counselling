@@ -67,6 +67,10 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/services-hero.webp);
 }
 
+.office-photo img {
+    width: 100%;
+}
+
 
 .logo {
     border-radius: 50%;
