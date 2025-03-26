@@ -155,6 +155,22 @@
 </head>
 <body>
 
+        <div id="popup" class="popup">
+        <button class="close-btn" onclick="closePopup()">&times;</button>
+        <h2>Get My Book Now for Just £6.93!</h2>
+        <img src="images/bookcover.webp" alt="Overcoming Anxiety Book Cover">
+        <p><strong>OVERCOMING ANXIETY:</strong> A Practical CBT Workbook To Ease Worry And Regain Peace.</p>
+        <a href="https://www.amazon.co.uk/dp/B0F26LN9ML" target="_blank">Buy Now on Amazon</a>
+    </div>
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+        setTimeout(openPopup, 3000); // Show after 3 seconds
+    </script>
 
     <div id="background-1">
         <header>
