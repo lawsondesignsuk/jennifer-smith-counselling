@@ -12,6 +12,84 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bigshot+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CL:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Ribeye&display=swap');
 
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            max-width: 350px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            display: none;
+        }
+        .popup h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.4em;
+        }
+        .popup img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .popup p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+        .popup a {
+            display: inline-block;
+            background: #ff5722;
+            color: white;
+            padding: 12px 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        .popup a:hover {
+            background: #e64a19;
+        }
+        .popup .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ccc;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width: 480px) {
+            .popup {
+                width: 95%;
+                padding: 15px;
+            }
+            .popup h2 {
+                font-size: 1.2em;
+            }
+            .popup p {
+                font-size: 0.9em;
+            }
+            .popup a {
+                font-size: 0.9em;
+                padding: 10px 15px;
+            }
+            .popup .close-btn {
+                width: 25px;
+                height: 25px;
+                font-size: 1em;
+            }
+        }
+
 #background-1 {
     background-image: url(https://lycka.bold-themes.com/soft/wp-content/uploads/sites/4/2021/12/hero_background.jpg);
     background-size: cover;
